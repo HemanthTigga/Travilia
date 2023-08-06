@@ -1,0 +1,149 @@
+*{
+    margin: 0; padding: 0; box-sizing: border-box;
+    font-family: 'Readex Pro', sans-serif;
+}
+ 
+header{
+    width: 100%; height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url('indiagate.jpg');
+    background-size: cover;
+    background-position: center;
+    
+}
+
+nav{
+    width: 100%; height: 15vh;
+    background: rgba(0,0,0,0.2);
+    color:white;display: flex; justify-content: space-between;
+    align-items: center; text-transform: uppercase
+}
+
+nav .logo{
+    width: 25%;text-align: center;
+}
+
+nav .menu{
+    width: 40%; 
+    display: flex; justify-content: space-around;
+
+}
+
+nav .menu a{
+    width:20%;
+    text-decoration: none; color: white;
+
+}
+nav .menu a:first-child{
+    color:#FF3367;
+}
+
+main{
+    width:100%;
+    height: 85vh;
+    display:  flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; color: white;
+}
+
+ section{
+
+}
+
+  section h3{
+      font-size: 35px; font-weight: 200; letter-spacing: 3px;
+      text-shadow: 1px 1px 2px black;
+}
+ section h1{
+     margin: 30px 0 20px 0;
+     font-size: 55px;
+     font-weight: 700;
+     text-shadow: 2px 1px 5px black;
+     text-transform: uppercase;
+}
+
+ section p{
+     font-size: 25px;
+     word-spacing: 2px;
+     margin-bottom: 25px;
+     text-shadow: 1px 1px 1px black;
+}
+
+section a{
+    padding: 12px 30px;
+    border-radius: 4px;
+    outline: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+section .btnone{
+    /*background-color: #FF8933;*/
+    background: #fff;
+    color: #000;
+}
+
+section .bttwo{
+    background: #FF3367;
+    color: #fff;
+
+}
+ .change_content:after{
+    content: '';
+    animation: changetext 10s infinite linear;
+    color: #FF3367;
+}
+ 
+@keyframes changetext{
+    0%{content: "Delhi";}
+    20% { content:"Chandigarh";}
+    35% { content: "JAIPUR";}
+    60% { content: "KERELA";}
+    100% { content: "MUMBAI";}
+}
+*body2{
+    background:#00BDC4;
+    
+}
+.slider-box{
+    width:90;
+    height:90vh;
+    margin:30px auto;
+    position: relative;
+    overflow: hidden;
+
+}
+*#slider{
+    width:100%;
+    display: inline-flex;
+    transition: 0.7s;
+
+}
+#slider img{
+    width:100%;
+}
+.indicators{
+    position: absolute ;
+    left: 50%;
+    bottom: 20px;
+    transform: translateX(-50%);
+
+
+}
+
+.indicators span{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.5);
+    cursor: pointer;
+
+}
+.active{
+    background: #fff;
+}
+

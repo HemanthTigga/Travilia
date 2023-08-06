@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Great Vibes', cursive;
+    /* background:linear-gradient(to bottom left,#7a8d93dc,#000000dc); */
+    background-image:url("abts.jpg");
+    background-repeat: no-repeat;
+    background-size: 1600px 1000px;
+}
+
+.wrapper {
+    margin-top: 5%;
+}
+
+.wrapper h1 {
+    font-size: 52px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.abx{
+    font-family: 'Comfortaa', cursive;
+    font-weight:lighter;
+}
+.team {
+    display: flex;
+    text-align: center;
+    width: auto;
+    justify-content: center;
+    padding: 50px;
+}
+
+.team .team_member {
+    background-color:black;
+    margin: 5px;
+    margin-bottom: 50px;
+    width: 300px;
+    padding: 30px;
+    line-height: 20px;
+    color: #8e8b8b;
+    position: relative;
+    /* opacity: 0.8; */
+}
+
+.team .team_member h3 {
+    color: #64c1d8;
+    font-size: 35px;
+    margin-top: 50px;
+}
+p{font-size: 20px;}
+.team .team_member p.role {
+    color: lightcoral;
+    font-size: 25px;
+    /* text-transform: uppercase; */
+    margin: 12px 0;
+    font-weight: bolder;
+}
+.team .team_member .team_img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.team .team_member .team_img img {
+    width: 112px;
+    height: 112px;
+    padding: 5px;
+}

@@ -1,0 +1,132 @@
+/* nav{
+  background: #bfbfbf;
+  height: 80px;
+  width: 100%;
+}
+  nav ul{
+      text-align: center;
+  }
+  nav ul li{
+    display: inline-block;
+    line-height: 20px;
+    margin: 0 5px;
+  }
+  nav ul li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+  }
+  
+  .hd::after{
+    content: '';
+    width:0%;
+    height: 2px;
+    background: #000000;
+    display:block;
+    margin: 0 5px;
+    transition: 0.3s;
+}
+.hd:hover::after{
+    width: 100%;
+} */
+
+
+
+
+
+
+
+
+body{
+  background-color: #7a8d93dc;
+}
+nav{
+  width: 100%;
+  height: 10vh;
+  background:rgba(0,0,0,0.4);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav .logo{
+  width: 20%;
+  text-align: center;
+  font-size: 40px;
+  color: #ffffff;
+font-family: 'Great Vibes', cursive;
+}
+
+nav .navbar{
+  width:50%;
+  /* display: flex; */
+  /* position: fixed; */
+  justify-content:space-around;
+  
+}
+nav .navbar a{
+  width:25%;
+}
+/*.logo{
+  width: 50px;
+  cursor: pointer;
+}*/
+nav .navbar ul li{
+  list-style: none;
+  display: inline-block;
+  margin-right: 50px;
+  position:relative;
+  
+}
+nav  .navbar ul li a{
+  text-decoration: none;
+  color:#fff;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Dancing Script', cursive;
+  
+}
+nav ul li a:hover{
+  color: rgb(70, 216, 216);
+}
+
+.navbar ul li ul{
+  display:none;
+  color:white;
+  height:15rem;
+  position:absolute;
+  background-color:rgba(0,0,0,0.4);
+  padding:10px;
+  overflow:scroll;
+  border-radius:0px 0px 4px 4px;
+
+}
+.navbar ul li ul::-webkit-scrollbar {
+  display: none;
+}
+/* here is hover effect */
+.navbar ul li:hover ul{
+  display:block;
+
+} 
+.sub-tour{
+  position: relative;
+}
+.navbar ul li ul li {
+  padding:12px 14px;
+  margin:0px
+}
+.navbar ul li ul li{
+  width:180px;
+}
+.navbar ul li ul li a{
+  font-weight:lighter;
+}
+.sub-tour{
+  z-index: 2;
+  position: relative;
+}
+
+

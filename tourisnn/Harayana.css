@@ -1,0 +1,57 @@
+body{
+    background-color: rgb(245, 214, 175);
+}
+.img{
+    background-image: url(Hr.jpg);
+    background-size: cover;
+    background-position: top;
+    height:100vh;
+    border-radius: 5px;
+}
+.heading{
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    font-size:500%;
+    color: #ffff;
+    position:absolute;
+    text-shadow: 10px 10px 20px black;
+    top: 350px;
+    left: 420px;
+    text-decoration:  underline  ;
+    border: 2px;
+}
+.content{
+    box-sizing: content-box;
+    border: 2px solid;
+    margin-top: 1%;
+    width:1200px;
+    font-family:sans-serif;
+    text-align:start;
+    font-size:unset;
+    font-style: normal;
+    font-weight: lighter;
+    color:rgb(19, 1, 1);
+    
+    border-radius: 5px;
+    height: 10;
+    
+}
+.places{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    text-align:left;
+    text-decoration: underline;
+    font-weight: bold;
+    
+}
+.f1:link,.f1:visited{
+    background-color: #f44336;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+.f1:hover,.f1:active{
+    background-color: red;
+}

@@ -1,0 +1,215 @@
+body{
+    background-color: #7a8d93dc;
+}
+
+
+/* Navigation bar */
+
+nav{
+  width: 100%;
+  height: 10vh;
+  background:rgba(0,0,0,0.4);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav .logo{
+  width: 20%;
+  text-align: center;
+  font-size: 40px;
+  color: #ffffff;
+font-family: 'Great Vibes', cursive;
+}
+
+nav .navbar{
+  width:50%;
+  /* display: flex; */
+  /* position: fixed; */
+  justify-content:space-around;
+  
+}
+nav .navbar a{
+  width:25%;
+}
+/*.logo{
+  width: 50px;
+  cursor: pointer;
+}*/
+nav .navbar ul li{
+  list-style: none;
+  display: inline-block;
+  margin-right: 50px;
+  position:relative;
+  
+}
+nav  .navbar ul li a{
+  text-decoration: none;
+  color:#fff;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Dancing Script', cursive;
+  
+}
+nav ul li a:hover{
+  color: rgb(70, 216, 216);
+}
+
+.navbar ul li ul{
+  display:none;
+  color:white;
+  height:15rem;
+  position:absolute;
+  background-color:rgba(0,0,0,0.4);
+  padding:10px;
+  overflow:scroll;
+  border-radius:0px 0px 4px 4px;
+
+}
+.navbar ul li ul::-webkit-scrollbar {
+  display: none;
+}
+/* here is hover effect */
+.navbar ul li:hover ul{
+  display:block;
+
+} 
+.sub-tour{
+  position: relative;
+}
+.navbar ul li ul li {
+  padding:12px 14px;
+  margin:0px
+}
+.navbar ul li ul li{
+  width:180px;
+}
+.navbar ul li ul li a{
+  font-weight:lighter;
+}
+.sub-tour{
+  z-index: 2;
+  position: relative;
+}
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+/* Body   */
+
+
+  .heading{
+      font-family:inherit;
+      font-weight: bolder;
+      font-size:500%;
+      color: #ffffff;
+      position:absolute;
+      margin-left: 90px;
+      top: 53%;
+      left:33%;
+      text-decoration:  underline  ;
+  }
+  .content{
+      height: auto;
+      width: auto;
+      flex-basis:48%;
+      padding: 0px 80px;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      /* padding: 2%; */
+      justify-content: space-around;  
+  }
+  
+  .content-div{
+    flex-basis: 31%;
+    background: #ffffffcc;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+    color: #000000;
+    font-family: 'Great Vibes', cursive;
+    font-size: 18px;
+    box-sizing: border-box;
+  }
+  .content-div:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+  }
+  
+  .places{
+      font-family:initial;
+      color: rgba(0, 0, 0, 0.63);
+      text-align:center;
+      font-size:30px;
+      text-decoration: underline;
+      font-weight: bolder;
+      
+  }
+
+  .places h3{
+    font-family: 'Satisfy', cursive;
+  }
+  .f2{
+    background-color: #bfbfbf;
+    /* background: #76d5d3a4; */
+  /* color: white; */
+  width:auto;
+  border-radius: 2px;
+  padding: 14px 25px;
+  text-align: center;
+  font-weight: bolder;
+  text-decoration: none;
+  text-transform: uppercase;
+  display:block;
+  font-family: 'Comfortaa',cursive;
+  }
+  .f2-img1{
+    height: auto;
+    width: auto;
+    /* flex-basis:48%; */
+    padding: 0px 80px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0%;
+    justify-content: space-between;
+  
+  }
+  .f2-img1:hover{
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.301);
+  } 
+  .f2-img1{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  .f2-img1{
+    flex-basis: 31%;
+    border-radius: 20px;
+    margin-bottom: 5%;
+    padding: 0px;
+    text-align: center;
+    box-sizing: border-box;
+  }
+  .content{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    
+  }

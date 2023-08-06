@@ -1,0 +1,131 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+nav{
+    width: 100%;
+    height: 10vh;
+    background:rgba(0,0,0,0.4);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav .logo{
+    width: 20%;
+    text-align: center;
+    font-size: 40px;
+    color: #ffffff;
+  font-family: 'Great Vibes', cursive;
+}
+
+nav .navbar{
+    width:50%;
+    display: flex;
+    justify-content:space-around;
+    
+}
+nav .navbar a{
+    width:25%;
+}
+/*.logo{
+    width: 50px;
+    cursor: pointer;
+}*/
+nav .navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 50px;
+    position:relative;
+    
+}
+nav  .navbar ul li a{
+    text-decoration: none;
+    color:#fff;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Dancing Script', cursive;
+    
+}
+nav ul li a:hover{
+    color: rgb(70, 216, 216);
+}
+
+.navbar ul li ul{
+    display:none;
+    color:white;
+    height:15rem;
+    position:absolute;
+    background-color:rgba(0,0,0,0.4);
+    padding:10px;
+    overflow:scroll;
+    border-radius:0px 0px 4px 4px;
+
+}
+.navbar ul li ul::-webkit-scrollbar {
+    display: none;
+}
+/* here is hover effect */
+ .navbar ul li:hover ul{
+    display:block;
+
+} 
+
+.navbar ul li ul li {
+    padding:12px 14px;
+    margin:0px
+}
+.navbar ul li ul li{
+    width:180px;
+}
+.navbar ul li ul li a{
+    font-weight:lighter;
+}
+body{
+    background-color:  #809aa1dc;;
+}
+table{ 
+    text-align: center;
+    margin-left: 21%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border:2px solid  #cfffff;;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #7a8d93dc;
+    width: 61%;
+}
+table .str th{
+    font-family: 'Dancing Script', cursive;
+    font-weight:1000;
+    color:azure;
+    
+}
+table .ftr th{
+    font-family: 'Great Vibes', cursive;
+    font-weight:1000;
+    font-size: x-large;
+    border: 2px solid #bdf1f1;
+    color:azure;
+    padding:10px;
+}
+/* hr{
+    border:px solid #cfffff;;
+} */
+.content td{
+    font-family: 'Comfortaa', cursive;
+    font-weight:lighter;
+    color:azure;
+}
+.content td a,.content td a:visited{
+    background-color: rgb(70, 216, 216);
+    padding:5px;
+    text-decoration:none;
+    border-radius:4px;
+    color:white;
+}
+.content td a:hover,.content td a:visited:hover{
+    background-color: rgb(66, 238, 238);
+    
+}
+
